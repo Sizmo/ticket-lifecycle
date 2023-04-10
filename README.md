@@ -6,10 +6,6 @@
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -29,26 +25,114 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
+
+<h3>Submitting Tickets</h3>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+User can submit tickets at http://localhost/osTicket/
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/UhYK040.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Click Open a New Ticket. Fill in Email, Name and select Help Topic.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/dFzyP2A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Fill in Issue Summary and write a brief description of the issue. Click Create Ticket.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/hYyyXqY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JTPZM8z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Triaging Tickets</h3>
+
+<p>
+Agents can go to http://localhost/osTicket/scp/login.php and log in using username/email and password.
+</p>
+<p>
+<img src="https://i.imgur.com/PAlaJTr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+Assigned tickets will be shown under Open 
+</p>
+<p>
+<img src="https://i.imgur.com/2EPg27i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+Tickets can be opened by clicking on either the number or subject
+</p>
+<p>
+<img src="https://i.imgur.com/hDBv9Er.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+Proiority level can be changed
+</p>
+<p>
+<img src="https://i.imgur.com/7PrVIdZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+Ticket can be assigned to an agent
+</p>
+<p>
+<img src="https://i.imgur.com/7QzVNm2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+SLA severity can be assigned
+</p>
+<p>
+<img src="https://i.imgur.com/WFo5O8K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+Ticket can be assigned to the correct department
+</p>
+<p>
+<img src="https://i.imgur.com/I9Df5bZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+All changes, internal notes and responses are recorded
+</p>
+<p>
+<img src="https://i.imgur.com/7jQKuCA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Resolving Tickets</h3>
+
+<p>
+Once the issue is fixed the ticket can be resolved
+</p>
+<p>
+<img src="https://i.imgur.com/KBK9fiE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+All closed/resolved tickets can be found under the Closed tab
+</p>
+<p>
+<img src="https://i.imgur.com/jgmpfjH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
